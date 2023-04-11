@@ -10,69 +10,149 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="css/estilos.css" />
     <title>productos</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="Qsomos.html">¿Quienes somos?</a>
+          <a class="navbar-brand" href="index.html">Inicio</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="productos.html">Mis productos</a>
+                <a class="nav-link active" href="Qsomos.html">¿Quienes somos?</a>
+              </li>
+              <li class="nav-item">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="productos.html">Productos</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link active" href="contacto.html">Contactenos</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="carrito.html">Carrito de compra</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="ERS.html">ERS</a>
+            </li>
             </ul>
             
           </div>
         </div>
       </nav>
-
-      <div class="container">
-        <div class="row justify-content-around">
-          <div class="col-3">
-            <img src="img/productos/fightingStick.jpg" alt="" height="300px" width="300px"><br><h2>Control arcade ps5</h2>
-          </div>
-          <div class="col-3">
-            <img src="img/productos/MandoB.jpeg" alt="" height="300px" width="300px"><br><h2>Control ps5 azul</h2>
-          </div>
-        </div>
-        <div class="row justify-content-around">
-          <div class="col-3">
-            <img src="img/productos/Audifonos_ps4.jpg" alt="" height="300px" width="300px"><br><h2>Audifonos gamer ps4</h2>
-          </div>
-          <div class="col-3">
-            <img src="img/productos/Mando_ps4_camuflaje.jpg" alt="" height="300px" width="300px"><br><h2>Control ps4 camuflaje</h2>
+    
+      <div class="row row-cols-2 row-cols-md-4 g-6">
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/productos/fightingStick.jpg" class="card-img-top w-100 h-100" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Fight stick PS5</h5>
+              <p class="card-text">Control arcade para PlayStation 5</p>
+              <p class="precio text-end">$180.000</p>
+              <a href="#" class="btn btn-primary">agregar al carrito</a>
+            </div>
           </div>
         </div>
-        <div class="row justify-content-around">
-          <div class="col-3">
-            <img src="img/productos/Mando_ps4_normal.jpg" alt="" height="300px" width="300px"><br><h2>Control ps4 rojo</h2>
-          </div>
-          <div class="col-3">
-            <img src="img/productos/MandoGOWjpeg.jpeg" alt="" height="300px" width="300px"><br><h2>Control ps5 edicion especial GoW Ragnarok</h2>
-          </div>
-        </div>
-        <div class="row justify-content-around">
-          <div class="col-3">
-            <img src="img/productos/RacingWheelPS5.jpg" alt="" height="300px" width="300px"><br><h2>Racing wheel ps5</h2>
-          </div>
-          <div class="col-3">
-            <img src="img/productos/Simulador_gamer_logitech.jpg" alt="" height="300px" width="300px"><br><h2>Racing wheel stand Logitech</h2>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/productos/MandoB.jpeg" class="card-img-top w-100 h-100" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">DualSense</h5>
+              <p class="card-text">Control inalambrico PlayStation 5</p>
+              <p class="precio text-end">$60.000</p>
+              <a href="#" class="btn btn-primary">agregar al carrito</a>
+            </div>
           </div>
         </div>
-        <div class="row justify-content-around">
-          <div class="col-3">
-            <img src="img/productos/VRps4.jpg" alt="" height="300px" width="300px"><br><h2>Casco realidad virtual para ps4</h2>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/productos/Audifonos_ps4.jpg" class="card-img-top w-100 h-100" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Audifonos gamer</h5>
+              <p class="card-text">Audifonos gamer con microfono</p>
+              <p class="precio text-end">$10.000</p>
+              <a href="#" class="btn btn-primary">agregar al carrito</a>
+            </div>
           </div>
-          <div class="col-3">
-            <img src="img/productos/RacingWheelXBoxSeriesX.jpg" alt="" height="300px" width="300px"><br><h2>Racing wheel Xbox Series X</h2>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/productos/Mando_ps4_camuflaje.jpg" class="card-img-top  w-100 h-100" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Dualshock 4</h5>
+              <p class="card-text">Control inalambrico PlayStation 4 alternativo camuflado rojo</p>
+              <p class="precio text-end">$30.000</p>
+              <a href="#" class="btn btn-primary">agregar al carrito</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/productos/Mando_ps4_normal.jpg" class="card-img-top w-100 h-100" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Dualshock 4</h5>
+              <p class="card-text">Control inalambrico PlayStation 4 original naranjo</p>
+              <p class="precio text-end">$40.000</p>
+              <a href="#" class="btn btn-primary">agregar al carrito</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/productos/MandoGOWjpeg.jpeg" class="card-img-top w-100 h-100" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">DualSense GOW edition</h5>
+              <p class="card-text">Control inalambrico PlayStation 5 God Of War ragnarok edition</p>
+              <p class="precio text-end">$70.000</p>
+              <a href="#" class="btn btn-primary">agregar al carrito</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/productos/RacingWheelPS5.jpg" class="card-img-top w-100 h-100" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Racing Wheel PS5</h5>
+              <p class="card-text">Volante de carreras para PlayStation 5 </p>
+              <p class="precio text-end">$150.000</p>
+              <a href="#" class="btn btn-primary">agregar al carrito</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/productos/RacingWheelXBoxSeriesX.jpg" class="card-img-top w-100 h-100" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Racing Wheel Xbox Series X</h5>
+              <p class="card-text">Volante de carreras para Xbox Series X</p>
+              <p class="precio text-end">$150.000</p>
+              <a href="#" class="btn btn-primary">agregar al carrito</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/productos/VRps4.jpg" class="card-img-top w-100 h-100" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">PlayStation VR pack</h5>
+              <p class="card-text">Pack PlayStation VR Pack vr+juego</p>
+              <p class="precio text-end">$300.000</p>
+              <a href="#" class="btn btn-primary">agregar al carrito</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/productos/fightingStick.jpg" class="card-img-top w-100 h-100" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Simulador Gamer Logitech</h5>
+              <p class="card-text">C</p>
+              <p class="precio text-end">$50.000</p>
+              <a href="#" class="btn btn-primary">agregar al carrito</a>
+            </div>
           </div>
         </div>
       </div>
