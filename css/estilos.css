@@ -3,3 +3,9 @@
 .precio{
     color: greenyellow;
 }
+.carousel-caption h5{
+    color: red;
+}
+.carousel-caption p {
+    color: greenyellow;
+}
