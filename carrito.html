@@ -19,7 +19,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="css/estilos.css" />
-
+    <script src="js/funciones.js"></script>
     <title>Carrito</title>
   </head>
   <body>
@@ -61,7 +61,42 @@
       </div>
         
     </nav>
-    
+    <div class="container">
+    <table class="table table-hover" id="tablaPrecios">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Nombre Producto</th>
+          <th scope="col">Precio</th>
+          <th scope="col">Foto</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>DualSense</td>
+          <td class="precio">60000</td>
+          <td><img src="img/productos/MandoB.jpeg" alt="" class="rounded" height="100px" width="100px"></td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>DualSense GOW</td>
+          <td class="precio">70000</td>
+          <td><img src="img/productos/MandoGOWjpeg.jpeg" alt="" class="rounded" height="100px" width="100px"></td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>Audifonos Gamer</td>
+          <td class="precio">10000</td>
+          <td><img src="img/productos/Audifonos_ps4.jpg" alt="" class="rounded" height="100px" width="100px"></td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="d-grid gap-2">
+      <button class="btn btn-primary" type="button" onclick="calcularTotal()">Calcular Total</button>
+    </div>
+  </div>
+
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
